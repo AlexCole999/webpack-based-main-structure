@@ -35,6 +35,7 @@ module.exports = {
     rules: [
       {
         test: /\.s?css$/,
+        // MiniCssExtractPlugin.loader if you want separate style.css file in builded folder
         use: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
